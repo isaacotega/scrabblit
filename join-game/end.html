@@ -1,0 +1,153 @@
+<style>
+
+	#divEndGame .leftAligned {
+		width: 50%;
+		float: left;
+		text-align: left;
+		font-size: 30px;
+		font-weight: 300;
+		color: white;
+		font-family: times;
+	}
+	
+	#divEndGame .rightAligned {
+		width: 50%;
+		float: right;
+		text-align: left;
+		font-size: 30px;
+		font-weight: 300;
+		color: cyan;
+		font-family: times;
+	}
+	
+	#btnCancel {
+    		float: left; 
+		background-color: red;
+	}
+
+	#btnEndGame {
+    		float: right; 
+		background-color: indigo;
+	}
+	
+</style>
+
+	<button class="titleBar">Dashboard</button>
+ 	 
+	 	<div class="form" id="divEndGame">
+	 
+	 		<label class="formHeading">End Game</label>
+	 		
+	 		<br><br><br><br><br>
+	 		
+	 		<div class="leftAligned">
+	 	
+	 			<label class="statement">Game Id:</label>
+	 		
+	 			<br>
+	 		
+	 			<label class="statement">Game:</label>
+	 		
+	 			<br>
+	 		
+	 			<label class="statement">Participants:</label>
+	 		
+	 			<br>
+	 		
+	 			<label class="statement">Status:</label>
+	 		
+	 			<br><br>
+	 			
+	 			<button id="btnCancel">Cancel</button>
+	 		
+	 		</div>
+	 		
+	 		<div class="rightAligned">
+	 	
+	 			<label class="statement" id="gameId"></label>
+	 		
+	 			<br>
+	 		
+	 			<label class="statement" id="gameName"></label>
+	 		
+	 			<br>
+	 		
+	 			<label class="statement" id="participantsNumber"></label>
+	 		
+	 			<br>
+	 		
+	 			<label class="statement" id="gameStatus"></label>
+	 		
+	 			<br><br>
+	 			
+	 			<button id="btnEndGame">End Game</button>
+	 		
+	 		</div>
+	 		
+	 	
+	 	</div>
+	 	
+	 	<p class="hidden" id="hiddenGameParticipants"></p>
+	 	
+	 	
+	<script>
+	
+		setInterval(function() {
+	
+			$("#gameId").html(sessionStorage.getItem("gameStatus"));
+
+			$("#gameName").load("../session/" + sessionStorage.getItem("gameStatus") + "/game.txt");
+			
+			$("#hiddenGameParticipants").load("../session/" + sessionStorage.getItem("gameStatus") + "/participants.html", function() {
+			
+				$("#participantsNumber").html($("[id=participantName]").length);
+			
+			});
+		
+			$("#gameStatus").load("../session/" + sessionStorage.getItem("gameStatus") + "/status.txt");
+			
+		}, 500);
+			
+		$("#btnCancel").click(function() {
+			
+			window.location.href = "?stage=dashboard";
+		
+		});
+		
+		$("#btnEndGame").click(function() {
+			
+	 		// end game through AJAX  
+	 				
+			$.ajax({
+				type: "POST",
+				url: "../scripts/gameFilesCreator.php",
+				data: {
+					request: "endGame",
+					gameFolder: sessionStorage.getItem("gameStatus")
+				},
+				cache: false,
+				success: function(response) {
+				
+					if(response == "success") {
+					
+						toast("The game session (" +  sessionStorage.getItem("gameStatus") + ") has ended");
+						
+						sessionStorage.removeItem("gameStatus");
+						
+						window.location.href = "../";
+					
+					}
+					
+					else {
+					
+						toast("Error processing request");
+					
+					}
+				
+				}
+			});
+	
+		
+		});
+		
+	</script>

@@ -1,0 +1,1 @@
+var originalParticipantsArray = ["Isaac Otega", "Ovoley", "Ovolisky", "Isaac Otega"];

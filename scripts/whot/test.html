@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+
+	<html>
+	
+		<head>
+		
+		</head>
+		
+		<body>
+		
+			<form method="post">
+			
+				<input name="gameFolder">
+				
+			</form>
+	 
+			 <script src="../scripts/JQuery.js"></script>
+	 
+			 <script src='../../session/<?php echo $_POST["gameFolder"] ?>/participantsArray.js'></script>
+	 
+			 <script>
+			 sessionStorage.setItem("gameStatus", "isaacgame");
+			 
+			 	alert('php echo file_get_contents("../../session/' + sessionStorage.getItem('gameStatus') + '/' + participantsArray[0] + '/.html")');
+			 
+			 </script>
+	
+	 	</body>
+	 
+	 </html>
+
+	<?php
+	
+	 ?>
+	 

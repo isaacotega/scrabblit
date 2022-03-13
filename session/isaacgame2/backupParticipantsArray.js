@@ -1,0 +1,1 @@
+var backupParticipantsArray = ["Isaac Otega", "Ovoley", "Ovolisky", "Isaac Otega"];

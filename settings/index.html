@@ -1,0 +1,207 @@
+	 <!DOCTYPE html>
+
+	<html>
+	
+		<head>
+		
+			<title>Scrabble</title>
+			
+			<link rel="stylesheet" href="../styles/index.css">
+			
+			<link rel="stylesheet" href="../styles/templates.css">
+			
+			<style>
+			
+.option2 {
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	z-index: 1;
+	border: 0px solid;
+	border-bottom: 1px solid black;
+	margin: 0;
+	background: green
+}
+
+.option2:active {
+	background: #2A6B30
+}
+
+.optionText2 {
+	color: white;
+	font-size: 30px;
+	font-family: times;
+	float: left;
+}
+
+.option3 {
+	width: 90%;
+	height: 80px;;
+	text-align: center;
+	z-index: 1;
+	border: 0px solid;
+	margin-left: 10%;
+	background: green;
+	color: white:
+	border: 0px solid;
+	border-bottom: 1px solid black;
+	display: none;
+}
+
+.option3:active {
+	background: #2A6B30
+}
+
+.option3 input {
+	height: 20px;
+	width: 20px;
+	float: right;
+}
+
+				#proxyPortal {
+					height: 500px; 
+					width: 80%; 
+					background-color: white; 
+					 position: absolute;
+					 display: none; 
+					 text-align: center; 
+				      top: 50%;
+				      left: 10%;
+				      -ms-transform: translateY(-50%);
+				      transform: translateY(-50%);
+				     border: 1px solid black;
+					box-shadow: 0 0 25px 1px #0E410E;
+				}
+				
+				#proxyPortal #heading {
+					margin: 50px; 
+					font-size: 50px; 
+					font-weight: 700;
+				}
+
+				#proxyPortal .statement {
+					margin-top: 30px; 
+					font-size: 40px; 
+					float: left:
+				}
+
+				#proxyPortal input {
+					margin-down: 20px; 
+					height: 50px; 
+					width: 90%;
+					font-size: 40px; 
+					border: 0px solid;
+					border-bottom: 1px solid; 
+				}
+
+				#proxyPortal textarea {
+					margin-down: 20px; 
+					height: 50px; 
+					width: 90%;
+					font-size: 40px; 
+					border: 0px solid;
+					border-bottom: 1px solid; 
+				}
+
+				#proxyPortal button {
+					color: white; 
+					height: 60px; 
+					width: 150px;
+					font-size: 30px; 
+					font-weight: 700;
+					background-color: green; 
+					border-radius: 20%;
+				}
+
+			</style>
+			
+		</head>
+		
+		<body>
+		
+			<div class="sideNav"></div>
+		
+			<button class="header"></button>
+			
+			<button class="titleBar">Settings</button>
+ 
+			<br><br><br><br><br><br><br><br><br><br><br><br>
+
+			<button class="option2" id="connection">
+	
+				<label class="optionText2">Connection</label>
+		
+			</button>
+	
+			<button class="option3" id="internet">
+	
+				<label class="optionText">Internet</label>
+		
+				   <input type="radio" id="chkRemainLoggedIn" class="check">
+
+			</button>
+	
+			<button class="option3" id="proxy">
+	
+				<label class="optionText">Proxy</label>
+		
+				   <input type="radio" id="chkRemainLoggedIn" class="check">
+
+			</button>
+			
+			<div id="proxyPortal">
+			
+				<label id="heading">Connect through proxy</label>
+				
+				<br><br><br><br><br><br><br>
+			
+				<label class="statement">IP address</label>
+			
+				<br>
+				
+				<textarea id="inpIPAddress" placeholder="E.g. 192.168.43.1"></textarea>
+			
+				<br><br><br><br><br><br><br>
+			
+				<label class="statement">Port</label>
+			
+				<br>
+			
+				<input id="inpPort" placeholder="E.g. 8080" type="number">
+				
+				<br><br><br><br><br><br>
+				
+				<button id="btnConnectProxy">Connect</button>
+			
+			</div>
+	
+		 <script src="../scripts/JQuery.js"></script>
+	 
+	 	<script src="../scripts/templates.js"></script>
+	 
+	 	<script src="../scripts/methods.js"></script>
+	 
+		 <script>
+		 
+		 	$("#connection").click(function() {
+		 	
+		 		$("#internet").css("display", "block");
+		 	
+		 		$("#proxy").css("display", "block");
+		 	
+		 	});
+		 	
+		 	$("#btnConnectProxy").click(function() {
+		 	
+		 		toast("Connecting to " + "http://" + $("#inpIPAddress").val() + ":" + $("#inpPort").val());
+		 		
+		 		window.location = "http://" + $("#inpIPAddress").val() + ":" + $("#inpPort").val() + "/scrabblit";
+		 	
+		 	});
+	 
+		 </script>
+	
+	 </body>
+	 
+ </html>
+ 

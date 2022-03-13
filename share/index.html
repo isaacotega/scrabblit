@@ -1,0 +1,86 @@
+	 <!DOCTYPE html>
+
+	<html>
+	
+		<head>
+		
+			<title>Scrabble</title>
+			
+			<link rel="stylesheet" href="../styles/index.css">
+			
+			<link rel="stylesheet" href="../styles/templates.css">
+			
+			<style>
+			
+				img {
+					height: 80px; 
+					width: 80px;
+					border-radius: 20%;
+					margin: 10px; 
+				}
+			
+			</style>
+			
+4		
+		<body>
+		
+			<div class="sideNav"></div>
+		
+			<button class="header"></button>
+		
+			 <div class="centerPlaced">
+	 
+			 <label class="head">Share</label>
+			 
+			 <br>
+			 
+			 <img src="../images/social/fb.jpg" id="fb"></img>
+	 
+			 <img src="../images/social/gm.jpg" id="gm"></img>
+	 
+			 <img src="../images/social/ws.jpg" id="ws"></img>
+			 
+		 </div>
+	 
+		 <script src="../scripts/JQuery.js"></script>
+	 
+		 <script src="../accounts/index.js"></script>
+	
+	 	<script src="../scripts/templates.js"></script>
+	 
+		 <script>
+		 
+		 // information to be sent along with URL 
+		 
+		 var info = "Hey, I found this cool app where you can play multi-player games including whot and scrabble. You can download it at http://scrabblit.com";
+	 
+// share via facebook
+
+document.querySelector("#fb").addEventListener("click", function() {
+	
+	window.open("https://www.facebook.com/sharer/sharer.php?u=" + info);
+
+});
+
+// share via gmail
+
+document.querySelector("#gm").addEventListener("click", function() {
+	
+	window.open("mailto:?subject=" + info);
+
+});
+
+// share via whatsapp
+
+document.querySelector("#ws").addEventListener("click", function() {
+	
+	window.open("whatsapp://send?text=" + info);
+
+});
+
+		 </script>
+	
+	 </body>
+	 
+ </html>
+ 

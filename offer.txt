@@ -1,0 +1,71 @@
+
+Hi,
+I am a full-stack web developer and I would be glad to develop your websites.
+I only need a few details to begin:
+  What type website do you need?
+  Is it a static or dynamic one?
+  What customization do you need?
+Please forward these details and others to my inbox so I can begin.
+Thanks
+
+
+Hi, I am a full stack web developer proficient in HTML5, CSS3, JavaScript, JQuery, AngularJS, back-end scripting with PHP as well as database management.
+I will help you develop your web games to the best of my ability and do it fast as I have no project on hand.
+You can check out the scrabblit game in my portfolio http://ovolisky.atwebpages.com/myportfolio
+Pls forward the details of your projects to my inbox.
+Thanks.
+
+Hello Grayson,
+I am a full-stack web developer based in Nigeria and I will help you with your web development projects.
+Please inbox me with details of your projects.
+
+
+Hi, you need a web developer to integrate a search engine for your website which will be able to pull content out of a database, I suppose and filter the data based on specs like  category, subcategory etc.
+I am a full-stack web developer and I strongly believe I can complete your project in a short time as I have taken on similar projects in the past.
+Please feel free to inbox me with the details of the project so I can begin working on it.
+
+
+Hello sir,
+You need a web developer skilled with HTML, CSS and Bootstrap to integrate a menu bar, nav bar and some other webkits to your website.
+However, based on your project description, bootstrap will not be necessary and therefore I will use my skills in HTML, CSS and JavaScript to design every of the kits you need in your website.
+Pls inbox me when you're ready.
+Thanks
+
+
+Hi, I will like to take on your project of building a PHP app which will programmatically sync data between an SQL and a MySQL database.
+ I just wanted to ask, are they both on the same server oron a different server? As the answer to that question would affect how I go about with the project.
+Feel free to send me the details when you're ready.
+Thanks in advance
+
+
+Hello sir
+I am a full-stack web developer with over a year of experience in full-stack web development.
+I strongly feel I can take up your project as I've completed similar projects as this in the past. You can take a look at them in my portfolio: http://ovolisky.atwebpages.com/myportfolio 
+Feel free to inbox me whenever you're ready.
+Thank you
+
+
+Hi! You are looking for a web developer who can create a food ordering website with a QR ordering code feature.
+I strongly feel that I can easily complete this task for you as I have built a dynamic blog as a personal project previously. The link to the project is http://ovolisky.000webhostapp.com if you wish to take a look at it.
+I will use the popular MySQL database to store all data including the account information of your customers and query the database using the popular PHP programming language. I can also integrate AJAX into your website to make assynchronous requests to the server if you wish to give your site a more dynamic and professional look.
+I will also build the admin control panel which would be unaccessible by any user not registered as an admin and a special administrative position for you as the owner of the website to give you access to the activities of your admins as well as the ability to replace or block any of them.
+Although I am not skilled in Java which is first on your criteria, I have all the skills required to complete this job. Will you please give me a chance to work on your project and showcase my talent to you? 
+Thanks in advance!
+
+
+
+Hi! You are looking for a web developer who can connect your website to a database and retrieve information from it.
+I strongly feel that I can easily complete this task for you. I will use MySQL database to store all data including the account information of your users and query the database using the popular PHP programming language. I can also integrate AJAX into your login form if you wish to give your site a more dynamic look.
+Although I am new to this platform, I have all the skills required to complete the job. Will you please give me a chance to work on your project and showcase my talent to you? I’ll not mind if you want to go for an experienced seller for this job. I can completely understand. But, I still have a hope that I’ll get a message from you in my inbox. Thank you!
+
+1. If a buyer has mentioned a detailed description about the project
+
+Hi! I have read all the project details and understood that you want (mention buyer’s demand). I just wanted to ask if (ask your question). Fortunately, I have recently completed a similar project (mention brief details about the project) where I tackle the same problem by (explain how you solved it). Here’s the link if you want to visit: (add the link). I feel that I can easily complete this job for you as I have been working on the (mention your tool/platform/service) for the past (mention your experience) for various clients across the globe. I will wait to hear back from you. Thank you!
+
+2. If a buyer has posted a generic buyer request
+
+Hi! I have seen that you are looking for a professional (client’s demand). I have been working as a (mention your field) for the last (mention the years). Here are the links to some of the previous projects that I have successfully completed in the same niche. Can you please share more details about your project so that we can discuss it further? I’ll wait for your message. Thank you!
+
+3. If you are a new seller sending a buyer request proposal
+
+Hi! You are looking for a professional (mention client’s demand) and I strongly feel that I can easily complete this task for you. I will use the (mention your method) to handle this project. Although I am new to this platform, I have all the skills required to complete the job. Will you please give me a chance to work on your project and showcase my talent to you? I’ll not mind if you want to go for an experienced seller for this job. I can completely understand. But, I still have a hope that I’ll get a message from you in my inbox. Thank you! 🙂 

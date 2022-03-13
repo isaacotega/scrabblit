@@ -1,0 +1,26 @@
+Fv2w94Xq8Za5Z5j
+
+Hchts67jsvfssz55hn
+
+ovolisky
+
+4#8!nqOY2Py6Dk
+
+isaacotega123
+
+instagramformysite
+
+simpletrafficforme
+
+letswrite
+
+my github token = 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
+
+https://sing.hostbuddy.cloud:2083/cpsess8734077945/login/?goto_uri=frontend%2fpaper_lantern%2ffilemanager%2findex.html&session=ovolisky%3aIsdh_tNuDOqg5MxW%3acreate_user_session%2ca4da5dcea217ff54ecefd731480877a3
+
+https://sing.hostbuddy.cloud:2083/cpsess3825595066/login/?goto_uri=frontend%2fpaper_lantern%2fsql%2fPhpMyAdmin.html&session=ovolisky%3aTBNILNsUbN1MkjJD%3acreate_user_session%2c8e38f0bfa766853fb4608d8d7e369992
+
+
+//  use mysql; set password for 'root'@'localhost' = password 'termuxpass'; flush privileges; quit;
+
+// http://github.com/rajkumardusard/MyServer.git
